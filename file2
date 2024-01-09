@@ -1,0 +1,14 @@
+import java.util.*
+ public class venky(){
+
+public void savedata(){
+
+ system.out.println("hii sir");
+
+
+
+}
+
+
+
+ }
