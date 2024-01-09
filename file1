@@ -3,3 +3,5 @@ git status--untracked files-workspace area
 git add . - to move index/staging area
 git status - changes to be committed
 git commit -m ""
+hi 
+this is normal floder created by me.
