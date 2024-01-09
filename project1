@@ -1,0 +1,14 @@
+public class test {
+
+	public static void main(String[] args) {
+		two t = new two();
+		t.m1();
+		t.m2();
+		t.m3();
+		
+		t.m5();
+		
+	}
+
+}
+
