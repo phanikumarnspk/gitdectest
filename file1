@@ -1,0 +1,19 @@
+package overide2;
+
+public class child extends parent {
+
+    @Override
+	public two s() 
+	{
+		System.out.println("iam child m1 method");
+		return s();
+	}
+	
+	public  void m2() 
+	{
+		System.out.println("iam child m2 method");
+		
+	}
+		
+}
+

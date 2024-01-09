@@ -1,0 +1,19 @@
+package overide2;
+
+public  class parent {
+
+	
+	public two s() 
+	{
+		
+		System.out.println("iam a parent m1 method");
+		return  s();
+	}
+    public  void m2() {
+		
+		System.out.println("iam a parent m2 method");
+		
+	}
+	
+}
+
