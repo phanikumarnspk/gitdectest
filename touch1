@@ -1,0 +1,45 @@
+package ban;
+import java.util.Scanner;
+
+public class bankatm {
+	int balnce=3000;
+	void wamount(int wamount) {
+		System.out.println("the balnce is "+balnce);
+		System.out.println("with draw amountis=== "+wamount);
+		balnce =balnce -wamount;
+		System.out.println("the balance==="+balnce);
+		if (balnce>=wamount)
+			
+		{
+			System.out.println("the transction is succesfully ");
+		}else {
+			System.out.println("insuffceint funds");
+		}
+		}
+		 void  damount(int damount) {
+			System.out.println("the balnce is "+balnce);
+System.out.println("deosit amount==="+damount);
+balnce=balnce+damount;
+System.out.println("the t balc is "+balnce);
+
+
+
+		}
+	
+
+	public static void main(String[] args) {
+		bankatm s=new bankatm();
+		System.out.println("the depsoit amount is ");
+		System.out.println();
+		Scanner sc=new Scanner(System.in);
+		int damount=sc.nextInt();
+		s.damount(damount);
+		System.out.println("the withdraw amount is ");
+		System.out.println();
+		int wamount=sc.nextInt();
+		s.wamount(wamount);
+		
+	}
+
+}
+
