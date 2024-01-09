@@ -1,5 +1,0 @@
-This file pushing into gitdectest repository in git hub.
-git status--untracked files-workspace area
-git add . - to move index/staging area
-git status - changes to be committed
-git commit -m ""
